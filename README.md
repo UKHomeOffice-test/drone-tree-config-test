@@ -12,3 +12,4 @@ Note: need pipeline names to be unique accross all `.drone.yml` files. If so, mu
 
 WARNING:
 - change to tenant c resources triggers pipeline c but also default pipeline -> will need to refactor acp-notprod-resources and move root to sub-folder
+- links: changes to shared file does not trigger in pipelines where link was created
