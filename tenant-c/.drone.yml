@@ -12,7 +12,7 @@ steps:
   pull: if-not-exists
   image: alpine
   commands:
-  - echo tenant-r pipeline
+  - echo tenant-c pipeline
   when:
     event:
     - push
