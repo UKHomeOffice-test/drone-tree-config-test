@@ -6,3 +6,4 @@
 - adding 2 new pipelines for tenants b and c -> fail (linter: duplicate pipeline names)
 - tenant c resources changes: OK
 - tenant c pipeline changes: OK
+- changes to resources for tenant a and b -> fail (linter: duplicate pipeline names)
