@@ -1,6 +1,6 @@
 ---
 kind: pipeline
-name: default
+name: tenant-a
 type: kubernetes
 
 platform:
@@ -8,7 +8,7 @@ platform:
   arch: amd64
 
 steps:
-- name: echo-a
+- name: echo
   pull: if-not-exists
   image: alpine
   commands:
