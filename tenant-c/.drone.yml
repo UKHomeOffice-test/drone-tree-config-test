@@ -13,6 +13,7 @@ steps:
   image: alpine
   commands:
   - echo tenant-c pipeline
+  - sleep 10
   when:
     event:
     - push
