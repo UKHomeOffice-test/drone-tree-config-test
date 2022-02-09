@@ -8,7 +8,7 @@ platform:
   arch: amd64
 
 steps:
-- name: echo
+- name: echo-b
   pull: if-not-exists
   image: alpine
   commands:
